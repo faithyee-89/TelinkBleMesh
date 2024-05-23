@@ -30,19 +30,19 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation project(':TelinkBleMesh-Lib')
 //    implementation 'androidx.appcompat:appcompat:1.0.2'
 
 
-    implementation project(':TelinkBleMeshLib')
-//    implementation project(':TelinkFileSelector')
-    implementation 'com.google.android.material:material:1.4.0'
+    //    implementation project(':TelinkFileSelector')
+    implementation 'com.google.android.material:material:1.11.0'
 
     // QRCode
-    implementation 'com.google.zxing:core:3.3.3'
+    implementation 'com.google.zxing:core:3.5.3'
     implementation 'com.google.zxing:android-core:3.2.1'
     implementation 'me.dm7.barcodescanner:zxing:1.9.13'
 
     // http
-    implementation 'com.squareup.okhttp3:okhttp:4.9.1'
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
 }
